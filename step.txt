@@ -1,0 +1,24 @@
+_____________<> STEP <>______________
+$ 
+$ flutter pub add get
+$ dart pub add http
+$ flutter pub add carousel_slider
+$ flutter pub add cached_network_image
+$ 
+$ flutter pub add iconsax
+$ flutter pub add cupertino_icons
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+$ 
+______________<> END <>______________
