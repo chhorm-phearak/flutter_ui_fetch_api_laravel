@@ -3,6 +3,7 @@ import 'package:ecommerce/src/auth/forget.auth.dart';
 import 'package:ecommerce/src/auth/reset.auth.dart';
 import 'package:ecommerce/src/auth/signin.auth.dart';
 import 'package:ecommerce/src/auth/signup.auth.dart';
+import 'package:ecommerce/src/elements/product.element.dart';
 import 'package:ecommerce/src/pages/home.page.dart';
 import 'package:ecommerce/src/pages/login.page.dart';
 import 'package:ecommerce/src/pages/register.page.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MainPage(),
+      //home: MainPage(),
       //home: LoginPage(),
       //home: RegisterPage(),
       //home: SignInPage(),
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
       //home: ResetPassword(),
       //home: CreateAccSuccess(),
       //home: HomePage(),
+      home: ProductElement(),
     );
   }
 }

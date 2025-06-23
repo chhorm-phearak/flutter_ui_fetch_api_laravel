@@ -22,7 +22,7 @@ class ProductElement extends StatelessWidget {
             itemBuilder: (BuildContext context, int index) {
               var product = _con.listProducts.value[index];
               String image = "${api_base_url}${product.images}";
-              return SizedBox(
+              return Container(
                 height: 140,
                 width: double.infinity,
                 child: Card(
